@@ -1,5 +1,5 @@
 # GridMart
-GetGrid is a cutting-edge e-commerce platform designed to deliver a seamless shopping experience for users.
+GridMart is a cutting-edge e-commerce platform designed to deliver a seamless shopping experience for users.
 Key Features:
 
 User-Centric Interface: Intuitive and user-friendly design ensures an effortless browsing and purchasing experience.
@@ -28,4 +28,4 @@ This project is co-owned and developed collaboratively by Akuchi Ikenna J and Og
 
 Vision:
 
-SpringCart aims to revolutionize the e-commerce landscape by providing a robust, scalable, and user-friendly platform that empowers businesses to thrive in the digital marketplace.
+GridMart aims to revolutionize the e-commerce landscape by providing a robust, scalable, and user-friendly platform that empowers businesses to thrive in the digital marketplace.
