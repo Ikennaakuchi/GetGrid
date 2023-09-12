@@ -1,0 +1,12 @@
+ ######                                               #####
+ #     # #####   ####  #####  #    #  ####  #####    #     # ###### #####  #    # #  ####  ######
+ #     # #    # #    # #    # #    # #    #   #      #       #      #    # #    # # #    # #
+ ######  #    # #    # #    # #    # #        #       #####  #####  #    # #    # # #      #####
+ #       #####  #    # #    # #    # #        #            # #      #####  #    # # #      #
+ #       #   #  #    # #    # #    # #    #   #      #     # #      #   #   #  #  # #    # #
+ #       #    #  ####  #####   ####   ####    #       #####  ###### #    #   ##   #  ####  ######
+
+Application Version : ${spring.application.version}
+Application Title : @${spring.application.name}
+Spring Boot Version : ${spring-boot.version}
+Spring Boot Formatted Version : ${spring-boot.formatted-version}
