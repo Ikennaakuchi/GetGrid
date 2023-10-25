@@ -2,7 +2,7 @@ name: CI/CD GridMart
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: '*'
   pull_request:
     branches: [ "develop" ]
 jobs:
