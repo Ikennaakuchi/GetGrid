@@ -1,0 +1,47 @@
+version: '1'
+
+services:
+  user-service:
+    build: ./user-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - user-service-db
+
+  user-service-db:
+    image: postgres
+    environment:
+      POSTGRES_DB: user-service-db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD:
+      POSTGRES_HOST_AUTH_METHOD: trust
+
+  product-service:
+    build: ./product-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - product-db
+
+  product-db:
+    image: postgres
+    environment:
+      POSTGRES_DB: product_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD:
+      POSTGRES_HOST_AUTH_METHOD: trust
+
+  notification-service:
+    build: ./notification-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - notification-db
+
+  notification-db:
+    image: postgres
+    environment:
+      POSTGRES_DB: notification_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD:
+      POSTGRES_HOST_AUTH_METHOD: trust
