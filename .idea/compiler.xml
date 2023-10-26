@@ -22,7 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="GetGrid" options="-parameters" />
+      <module name="GetGrid" options="" />
       <module name="customer" options="" />
       <module name="notification-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
